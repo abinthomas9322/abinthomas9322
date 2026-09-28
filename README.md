@@ -1,61 +1,100 @@
-# Hi, I'm Abin Oommen Thomas 👋
+<h1 align="center">Hi, I'm Abin Oommen Thomas 👋</h1>
+<h3 align="center">AI Engineer · MSc Artificial Intelligence · Dublin, Ireland</h3>
 
-**AI Engineer · MSc Artificial Intelligence (Dublin Business School) · Dublin, Ireland**
+<p align="center">
+  <a href="https://www.linkedin.com/in/abinoommenthomas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:abinoommen6@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://study-rag-tutor.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
+  <img src="https://img.shields.io/badge/Open_to_work-Ireland_(Stamp_1G)-2ea44f?style=for-the-badge" alt="Open to work" />
+</p>
 
-I build and ship LLM-powered applications end to end, from retrieval pipelines and evaluation to tested APIs, CI/CD and deployment.
-Right now I'm focused on **Retrieval-Augmented Generation (RAG)**: making answers grounded, measurable and fast.
+I build and ship LLM-powered applications end to end: retrieval pipelines, evaluation, tested APIs, CI/CD and deployment.
+My focus is **Retrieval-Augmented Generation (RAG)** and making AI answers **grounded, measurable and fast**.
 
-- 🎯 Looking for **Graduate AI Engineer / ML Engineer / Data Science** roles in Ireland (Stamp 1G, full work authorisation)
-- 🔭 Currently improving retrieval quality in **Study RAG Tutor** with hybrid search (BM25 + vectors) and cross-encoder reranking
-- 🌱 Learning: AI agents (LangGraph, tool calling, MCP), fine-tuning (LoRA) and MLOps
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/abinoommenthomas) or at abinoommen6@gmail.com
+- 🎯 Looking for **Graduate AI Engineer / ML Engineer / Data Science** roles in Ireland (full work authorisation)
+- 🔭 Currently working on **AI agents** (tool calling, LangGraph, MCP)
+- 🌱 Learning fine-tuning (LoRA), MLOps (Docker, MLflow) and cloud deployment
+- 💬 Ask me about RAG, retrieval evaluation, vector search or shipping Python apps with CI/CD
 
 ---
 
-## 🚀 Featured projects
+## 🚀 Projects
 
-### [Study RAG Tutor](https://github.com/abinthomas9322/study-rag-tutor) · [Live demo](https://study-rag-tutor.vercel.app)
-A full-stack, multi-user AI tutoring platform. Students upload course material into "course spaces" and get grounded, cited answers plus auto-generated quizzes.
+| Project | What it is | Stack | Status |
+|---|---|---|---|
+| [**Study RAG Tutor**](https://github.com/abinthomas9322/study-rag-tutor) · [demo](https://study-rag-tutor.vercel.app) | Full-stack AI tutoring platform: upload course material, get cited answers and auto-generated quizzes | FastAPI · React · sqlite-vec · fastembed · Groq | ✅ Live |
+| [**RAG Document Assistant**](https://github.com/abinthomas9322/-rag-document-assistant) | Ask questions about your PDFs and get grounded answers | Streamlit · Sentence-Transformers · Groq | ✅ Complete |
+| **AI Agent** | Tool-calling agent with LangGraph and MCP | Python · LangGraph · MCP | 🔨 Next |
+| **LLM Fine-tune** | LoRA fine-tune of an open model, published to Hugging Face Hub | PyTorch · PEFT · Hugging Face | 📅 Planned |
+| **End-to-end ML on Irish data** | Train, track and serve a model with a full MLOps setup | scikit-learn · MLflow · Docker · Cloud | 📅 Planned |
+| **Capstone AI app** | Production AI product combining everything above | TBA | 📅 Planned |
 
-- RAG pipeline end to end: chunking → ONNX embeddings (fastembed, CPU only) → vector search (sqlite-vec) → answers from the Groq LLM API
-- Retrieval evaluation harness with a 50-question golden set that measures Hit@k and MRR
-- Hybrid retrieval (BM25 + vectors, Reciprocal Rank Fusion) with cross-encoder reranking
-- **100% backend test coverage** enforced in CI: ruff, mypy, bandit, CodeQL
-- FastAPI backend on Render, React + Vite + shadcn/ui frontend on Vercel
+<!-- To add a project: copy a row above, link the repo, and set Status to ✅ Live / ✅ Complete / 🔨 In progress / 📅 Planned -->
 
-`Python` `FastAPI` `React` `sqlite-vec` `fastembed` `Groq` `GitHub Actions`
+### ⭐ Highlight: Study RAG Tutor
 
-### [RAG Document Assistant](https://github.com/abinthomas9322/-rag-document-assistant)
-A Streamlit app that answers questions about your PDFs, retrieving relevant passages with Sentence-Transformers embeddings before generating grounded answers.
+A multi-user platform where students create "course spaces", upload material, and get answers that cite their sources.
 
-- Clean split between pure RAG logic and UI, with a test suite
-- Production-style quality and security pipeline: ruff, mypy, bandit, pip-audit, pytest, gitleaks, Trivy, CodeQL
+- **RAG pipeline end to end:** chunking → ONNX embeddings (CPU only) → vector search → answers from the Groq LLM API
+- **Measured, not guessed:** a 50-question golden set scores every retrieval change with Hit@k and MRR, and CI fails if quality drops
+- **Hybrid search + reranking:** BM25 keyword search fused with vectors (Reciprocal Rank Fusion), then a cross-encoder reranker
+- **Engineering quality:** 100% backend test coverage, ruff, mypy, bandit, CodeQL, Docker Compose for one-command startup
 
-`Python` `Sentence-Transformers` `Groq` `Streamlit`
+| Retrieval mode | Hit@4 | MRR |
+|---|---|---|
+| Vector only | 86% | 0.778 |
+| Keyword (BM25) only | 78% | 0.622 |
+| Hybrid (RRF) | 88% | 0.770 |
+| **Hybrid + reranker** | **98%** | **0.832** |
 
 ---
 
 ## 🛠️ Tech stack
 
-**Languages:** Python · SQL · JavaScript/TypeScript
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black" />
+</p>
 
-**GenAI & LLMs:** RAG · Prompt Engineering · Embeddings · Vector Search · Rerankers · Hugging Face · Sentence-Transformers · fastembed · Groq API
-
-**ML & Data:** scikit-learn · Pandas · NumPy · Feature Engineering · Model Evaluation · Power BI
-
-**Backend & Web:** FastAPI · REST APIs · React · Vite · Streamlit · SQLite / sqlite-vec
-
-**Cloud & DevOps:** AWS · Azure · Vercel · Render · Git · GitHub Actions · CI/CD · pytest · CodeQL · Trivy
+**GenAI:** RAG · Prompt Engineering · Embeddings · Vector Search · Hybrid Search · Rerankers · Retrieval Evaluation (Hit@k, MRR) · Groq API
 
 ---
 
-## 🎓 Background
+## 💼 Experience
 
-- **MSc Artificial Intelligence**, Dublin Business School (2025–2026)
-- **BCA, Mobile Application & Cloud Computing**, Sacred Heart College, Thevara (2024)
-- Graduate Research Assistant (AI/ML) at DBS · Freelance Data Analyst · previously a Data Science with GenAI intern and a Cloud Technology intern
+- **Graduate Research Assistant (AI/ML)**, Dublin Business School · 2026 to present
+- **Freelance Data Analyst** (Python, SQL, Power BI dashboards) · 2025 to present
+- **Data Science with Generative AI Intern**, Gen AI · 2024 to 2025
+- **Cloud Technology Intern**, iDatalytics · 2023
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=abinthomas9322&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abinthomas9322&layout=compact&hide_border=true" alt="Top languages" height="160" />
+## 🎓 Education
+
+- **MSc Artificial Intelligence**, Dublin Business School · 2025 to 2026
+- **BCA, Mobile Application & Cloud Computing**, Sacred Heart College, Thevara · 2024
+
+---
+
+## 📊 GitHub activity
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=abinthomas9322&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abinthomas9322&layout=compact&hide_border=true" alt="Top languages" height="165" />
+</p>
+<p>
+  <img src="https://streak-stats.demolab.com?user=abinthomas9322&hide_border=true" alt="GitHub streak" height="165" />
 </p>
