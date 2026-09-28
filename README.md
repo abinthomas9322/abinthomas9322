@@ -18,6 +18,57 @@ My focus is **Retrieval-Augmented Generation (RAG)** and making AI answers **gro
 
 ---
 
+## ✅ Why hire me
+
+What AI hiring managers look for, and where you can check it on this profile:
+
+| They look for | Evidence |
+|---|---|
+| **Can ship real AI products** | [Study RAG Tutor](https://study-rag-tutor.vercel.app) is live: full-stack RAG app with a deployed backend and frontend |
+| **Measures model quality with numbers** | Built a retrieval evaluation harness with a 50-question golden set that raised Hit@4 from 86% to **98%** |
+| **Writes production-quality code** | 100% backend test coverage, type checking, linting, security scans and CI/CD on every push |
+| **Understands the full ML lifecycle** | Data prep → modelling → evaluation → API → Docker → cloud deployment |
+| **Solid foundations** | MSc Artificial Intelligence + BCA in Mobile Application & Cloud Computing |
+| **Real work experience** | AI/ML research assistant, freelance data analyst, GenAI and cloud internships |
+| **Communication & teamwork** | Sales supervisor leading a team while completing a full-time MSc |
+| **Ready to start** | Based in Dublin with full work authorisation in Ireland (Stamp 1G) |
+
+---
+
+## 🧠 Skills
+
+| Area | Skills |
+|---|---|
+| **Generative AI & LLMs** | **Large Language Models (LLMs)** · **Retrieval-Augmented Generation (RAG)** · **Prompt Engineering** · **Embeddings** · **Vector Search** · Hybrid Search (BM25 + vectors) · Cross-Encoder Reranking · **Generative AI** · Hugging Face · Sentence-Transformers · fastembed · Groq LLM API |
+| **Machine Learning & AI** | **Machine Learning** · **Deep Learning** · **Natural Language Processing (NLP)** · scikit-learn · Classification & Prediction · **Model Evaluation** · Retrieval Metrics (Hit@k, MRR) · Experiment Design |
+| **Data Science & Analytics** | **Python** · **SQL** · **Pandas** · **NumPy** · Feature Engineering · Exploratory Data Analysis (EDA) · Data Cleaning · **Data Visualisation** · **Power BI** · Dashboards & Reporting |
+| **Backend & Web** | **FastAPI** · **REST APIs** · React · Vite · TypeScript/JavaScript (basic) · Streamlit · SQLite · sqlite-vec |
+| **Cloud & Deployment** | **AWS** · **Azure** · **Docker** / Docker Compose · Vercel · Render · Cloud Infrastructure |
+| **MLOps, DevOps & Quality** | **Git** · **GitHub Actions** · **CI/CD** · **pytest** · Test Automation (100% coverage) · ruff · mypy · Security Scanning (bandit, CodeQL, Trivy, gitleaks, pip-audit) |
+| **Professional** | Research & Literature Review · Technical Reporting · Stakeholder Communication · Team Leadership · Time Management |
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black" />
+</p>
+
+---
+
 ## 🚀 Projects
 
 | Project | What it is | Stack | Status |
@@ -46,32 +97,6 @@ A multi-user platform where students create "course spaces", upload material, an
 | Keyword (BM25) only | 78% | 0.622 |
 | Hybrid (RRF) | 88% | 0.770 |
 | **Hybrid + reranker** | **98%** | **0.832** |
-
----
-
-## 🛠️ Tech stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black" />
-</p>
-
-**GenAI:** RAG · Prompt Engineering · Embeddings · Vector Search · Hybrid Search · Rerankers · Retrieval Evaluation (Hit@k, MRR) · Groq API
 
 ---
 
