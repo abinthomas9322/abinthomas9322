@@ -8,6 +8,38 @@
   <img src="https://img.shields.io/badge/Open_to_work-Ireland_(Stamp_1G)-2ea44f?style=for-the-badge" alt="Open to work" />
 </p>
 
+## ✅ Why hire me: 30-second summary
+
+> **Graduate AI Engineer with an MSc in Artificial Intelligence, based in Dublin with full work rights (Stamp 1G). I have built, tested and deployed a live RAG application, and I improve AI systems by measuring them. Available to start immediately.**
+
+### 🎯 Roles I'm a fit for
+`Graduate AI Engineer` · `AI Engineer` · `Machine Learning Engineer` · `Data Scientist` · `GenAI / LLM Engineer` · `Data Analyst` · `Graduate Software Engineer (Python)`
+
+### 🔎 What I bring, with proof
+
+| What employers need | What I've done | Proof |
+|---|---|---|
+| **Build real AI products, not just notebooks** | Designed and shipped a multi-user RAG tutoring platform: document upload, cited answers and AI-generated quizzes | [Live demo](https://study-rag-tutor.vercel.app) · [Code](https://github.com/abinthomas9322/study-rag-tutor) |
+| **Improve AI quality with data** | Built an evaluation harness (50-question golden set, Hit@k, MRR), then added hybrid BM25 + vector search and cross-encoder reranking: **Hit@4 86% → 98%** | [Results table](#-highlight-study-rag-tutor) |
+| **Know LLMs & GenAI in practice** | RAG, prompt engineering, embeddings, vector search, reranking, LLM APIs (Groq), Hugging Face models | [Skills](#-skills) |
+| **Write production-quality code** | 100% backend test coverage, type checking (mypy), linting (ruff), security scans (bandit, CodeQL, Trivy, gitleaks) on every push | CI pipelines in both repos |
+| **Deploy and operate software** | FastAPI backend on Render, React frontend on Vercel, Docker Compose for local setup, GitHub Actions CI/CD, AWS & Azure experience | [Live demo](https://study-rag-tutor.vercel.app) |
+| **Handle data end to end** | Cleaning, EDA, feature engineering, ML models (scikit-learn), SQL, Power BI dashboards for freelance clients | [Experience](#-experience) |
+| **Research ability** | Graduate Research Assistant in AI/ML: literature reviews, experiment design, model evaluation | [Experience](#-experience) |
+| **Strong foundations** | MSc Artificial Intelligence (DBS) + BCA in Mobile Application & Cloud Computing | [Education](#-education) |
+| **Teamwork, communication, reliability** | Sales Supervisor leading a team while completing a full-time MSc; explain technical work clearly in reports | [Experience](#-experience) |
+| **Keep learning fast** | Currently building AI agents (LangGraph, MCP), next: LoRA fine-tuning and MLOps | [Roadmap](#-projects) |
+
+### 📌 Quick facts for recruiters
+- 📍 **Location:** Dublin, Ireland (open to hybrid / on-site across Ireland)
+- 🛂 **Work authorisation:** Stamp 1G, full-time, no sponsorship needed
+- 🕐 **Availability:** Immediate
+- 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/abinoommenthomas) · abinoommen6@gmail.com
+
+---
+
+## 👋 About me
+
 I build and ship LLM-powered applications end to end: retrieval pipelines, evaluation, tested APIs, CI/CD and deployment.
 My focus is **Retrieval-Augmented Generation (RAG)** and making AI answers **grounded, measurable and fast**.
 
@@ -15,23 +47,6 @@ My focus is **Retrieval-Augmented Generation (RAG)** and making AI answers **gro
 - 🔭 Currently working on **AI agents** (tool calling, LangGraph, MCP)
 - 🌱 Learning fine-tuning (LoRA), MLOps (Docker, MLflow) and cloud deployment
 - 💬 Ask me about RAG, retrieval evaluation, vector search or shipping Python apps with CI/CD
-
----
-
-## ✅ Why hire me
-
-What AI hiring managers look for, and where you can check it on this profile:
-
-| They look for | Evidence |
-|---|---|
-| **Can ship real AI products** | [Study RAG Tutor](https://study-rag-tutor.vercel.app) is live: full-stack RAG app with a deployed backend and frontend |
-| **Measures model quality with numbers** | Built a retrieval evaluation harness with a 50-question golden set that raised Hit@4 from 86% to **98%** |
-| **Writes production-quality code** | 100% backend test coverage, type checking, linting, security scans and CI/CD on every push |
-| **Understands the full ML lifecycle** | Data prep → modelling → evaluation → API → Docker → cloud deployment |
-| **Solid foundations** | MSc Artificial Intelligence + BCA in Mobile Application & Cloud Computing |
-| **Real work experience** | AI/ML research assistant, freelance data analyst, GenAI and cloud internships |
-| **Communication & teamwork** | Sales supervisor leading a team while completing a full-time MSc |
-| **Ready to start** | Based in Dublin with full work authorisation in Ireland (Stamp 1G) |
 
 ---
 
