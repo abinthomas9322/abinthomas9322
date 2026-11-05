@@ -28,7 +28,7 @@
 | **Research ability** | Graduate Research Assistant in AI/ML: literature reviews, experiment design, model evaluation | [Experience](#-experience) |
 | **Strong foundations** | MSc Artificial Intelligence (DBS) + BCA in Mobile Application & Cloud Computing | [Education](#-education) |
 | **Teamwork, communication, reliability** | Sales Supervisor leading a team while completing a full-time MSc; explain technical work clearly in reports | [Experience](#-experience) |
-| **Keep learning fast** | Currently building AI agents (LangGraph, MCP), next: LoRA fine-tuning and MLOps | [Roadmap](#-projects) |
+| **Keep learning fast** | Shipped a LangGraph agent and MCP server, now building document extraction with vision models; next: LoRA fine-tuning and MLOps | [Roadmap](#-projects) |
 
 ### 📌 Quick facts for recruiters
 - 📍 **Location:** Dublin, Ireland (open to hybrid / on-site across Ireland)
@@ -90,7 +90,8 @@ My focus is **Retrieval-Augmented Generation (RAG)** and making AI answers **gro
 |---|---|---|---|
 | [**Study RAG Tutor**](https://github.com/abinthomas9322/study-rag-tutor) · [demo](https://study-rag-tutor.vercel.app) | Full-stack AI tutoring platform: upload course material, get cited answers and auto-generated quizzes | FastAPI · React · sqlite-vec · fastembed · Groq | ✅ Live |
 | [**RAG Document Assistant**](https://github.com/abinthomas9322/-rag-document-assistant) | Ask questions about your PDFs and get grounded answers | Streamlit · Sentence-Transformers · Groq | ✅ Complete |
-| **AI Agent** | Tool-calling agent with LangGraph and MCP | Python · LangGraph · MCP | 🔨 Next |
+| [**Job Hunt Agent**](https://github.com/abinthomas9322/job-hunt-agent) | Tool-calling agent that searches jobs, scores them against my CV and drafts cover letters with human approval | Python · LangGraph · MCP · Streamlit | ✅ Complete |
+| [**Document Intelligence**](https://github.com/abinthomas9322/document-intelligence) | Scanned receipts and invoices to validated JSON, with field-level accuracy measured against labelled data | OCR (ONNX) · Groq · Pydantic · FastAPI | 🔨 In progress |
 | **LLM Fine-tune** | LoRA fine-tune of an open model, published to Hugging Face Hub | PyTorch · PEFT · Hugging Face | 📅 Planned |
 | **End-to-end ML on Irish data** | Train, track and serve a model with a full MLOps setup | scikit-learn · MLflow · Docker · Cloud | 📅 Planned |
 | **Capstone AI app** | Production AI product combining everything above | TBA | 📅 Planned |
